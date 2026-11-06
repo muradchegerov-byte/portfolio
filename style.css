@@ -1,0 +1,126 @@
+/* Umumiy sozlamalar va nollashtirish */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* NAVBAR USLUBI */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #1e1e1e;
+    width: 100%;
+}
+
+.logo h6 {
+    font-size: 22px;
+    color: #ffb703;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-links li a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #ffb703;
+}
+
+/* TUGMA USLUBI */
+.btn {
+    background-color: #ffb703;
+    color: #121212;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #fb8500;
+    color: #ffffff;
+}
+
+/* HEADER USLUBI */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    padding: 20px;
+    text-align: center;
+    background-color: #181818;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 600px;
+}
+
+.header-content h1 {
+    font-size: 36px;
+    color: #ffb703;
+}
+
+.header-content h2 {
+    font-size: 24px;
+    color: #e0e0e0;
+}
+
+.header-content p {
+    font-size: 15px;
+    color: #aaaaaa;
+}
+
+/* MAIN QISMI USLUBI */
+.main-content {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 20px;
+}
+
+.card {
+    background-color: #1e1e1e;
+    padding: 30px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 1px solid #333333;
+}
+
+.card h3 {
+    color: #ffb703;
+    font-size: 20px;
+}
+
+.card p {
+    color: #cccccc;
+    font-size: 14px;
+}
